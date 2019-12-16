@@ -43,4 +43,4 @@ _This is my personal webpage where I display every work and applications I have 
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-:earth_americas:www.lysiastolhofer.com
+:earth_americas: www.lysiastolhofer.com
