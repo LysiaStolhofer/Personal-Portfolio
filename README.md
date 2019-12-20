@@ -2,6 +2,7 @@
 
 _This is my personal webpage where I display every work and applications I have done so far. Every app is completed by a README.md, the deployed version link, and the link to the Github code. I constantly work on my personal portfolio to update it with my latest work._
 
+----------------------------------------------------------------------------------------------------------------------------------------
 ## Features :computer: 
 
 - HTML5, CSS3, Jquery
