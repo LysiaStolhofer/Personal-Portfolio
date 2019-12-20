@@ -1,8 +1,7 @@
 <?php
 
-    // Only process POST reqeusts.
+    // Only process POST requests.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Get the form fields and remove whitespace.
 
         $name = strip_tags(trim($_POST["cf_name"]));
         $name = str_replace(array("\r","\n"),array(" "," "),$name);
@@ -10,7 +9,7 @@
         $message = trim($_POST["cf_message"]);
 
 
-        // Check that data was sent to the mailer.
+        // Check that data was sent to the mailer
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
@@ -18,13 +17,13 @@
             exit;
         }
 
-        // Set the recipient email address.
+        // recipient email address.
         $recipient = "lysiapaulinstolhofer@gmail.com";
 
-        // Set the email subject.
+        // email subject.
         $subject = "New contact from $name";
 
-        // Build the email content.
+        // email content.
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
         $email_content .= "Subject: $subject\n\n";
