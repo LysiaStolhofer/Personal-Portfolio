@@ -18,7 +18,7 @@
         }
 
         // recipient email address.
-        $recipient = "lysiapaulinstolhofer@gmail.com";
+        $recipient = "info.lysiastolhofer@gmail.com";
 
         // email subject.
         $subject = "New contact from $name";
